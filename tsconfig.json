@@ -29,7 +29,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "incremental": true,
-    "baseUrl": "."
+    "tsBuildInfoFile": "./dist/.tsbuildinfo"
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "dist", "examples", "**/*.test.ts", "**/*.test.tsx"]

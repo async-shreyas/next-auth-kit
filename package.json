@@ -7,34 +7,34 @@
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     },
     "./providers": {
-      "require": "./dist/providers/oauth.js",
+      "types": "./dist/providers/oauth.d.ts",
       "import": "./dist/providers/oauth.mjs",
-      "types": "./dist/providers/oauth.d.ts"
+      "require": "./dist/providers/oauth.js"
     },
     "./components": {
-      "require": "./dist/components/auth-ui.js",
+      "types": "./dist/components/auth-ui.d.ts",
       "import": "./dist/components/auth-ui.mjs",
-      "types": "./dist/components/auth-ui.d.ts"
+      "require": "./dist/components/auth-ui.js"
     },
     "./hooks": {
-      "require": "./dist/hooks/use-auth.js",
+      "types": "./dist/hooks/use-auth.d.ts",
       "import": "./dist/hooks/use-auth.mjs",
-      "types": "./dist/hooks/use-auth.d.ts"
+      "require": "./dist/hooks/use-auth.js"
     },
     "./server": {
-      "require": "./dist/server/auth.js",
+      "types": "./dist/server/auth.d.ts",
       "import": "./dist/server/auth.mjs",
-      "types": "./dist/server/auth.d.ts"
+      "require": "./dist/server/auth.js"
     },
     "./middleware": {
-      "require": "./dist/middleware/auth-middleware.js",
+      "types": "./dist/middleware/auth-middleware.d.ts",
       "import": "./dist/middleware/auth-middleware.mjs",
-      "types": "./dist/middleware/auth-middleware.d.ts"
+      "require": "./dist/middleware/auth-middleware.js"
     }
   },
   "files": [
@@ -49,7 +49,6 @@
     "dev": "tsup --watch",
     "clean": "rimraf dist",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint src/**/*.{ts,tsx}",
     "prepublishOnly": "npm run clean && npm run typecheck && npm run build",
     "format": "prettier --write 'src/**/*.{ts,tsx}'",
     "test": "jest",
@@ -99,31 +98,31 @@
     }
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "6.6.3",
-    "@testing-library/react": "14.3.1",
+    "@testing-library/jest-dom": "^6.4.0",
+    "@testing-library/react": "^14.2.1",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/bcryptjs": "^2.4.6",
     "@types/jest": "^29.5.12",
-    "@types/node": "22.15.21",
-    "@types/react": "19.1.5",
-    "@types/react-dom": "19.1.5",
-    "@typescript-eslint/eslint-plugin": "7.18.0",
-    "@typescript-eslint/parser": "7.18.0",
-    "eslint": "8.57.1",
+    "@types/node": "^22.15.21",
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "^15.3.2",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "4.6.2",
-    "jest": "29.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "next": "^15.3.2",
-    "prettier": "3.5.3",
+    "prettier": "^3.2.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "rimraf": "5.0.10",
-    "ts-jest": "29.3.4",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.2",
     "tsup": "8.5.0",
-    "typescript": "5.8.3"
+    "typescript": "^5.8.3"
   },
   "bugs": {
     "url": "https://github.com/username/next-auth-kit/issues"
