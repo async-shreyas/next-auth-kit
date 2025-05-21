@@ -1,8 +1,8 @@
 # Next Auth Kit
 
-![Version](https://img.shields.io/npm/v/next-auth-kit)
-![License](https://img.shields.io/npm/l/next-auth-kit)
-![Downloads](https://img.shields.io/npm/dm/next-auth-kit)
+![Version](https://img.shields.io/npm/v/next-auth-pro-kit)
+![License](https://img.shields.io/npm/l/next-auth-pro-kit)
+![Downloads](https://img.shields.io/npm/dm/next-auth-pro-kit)
 
 A comprehensive authentication solution for Next.js applications that provides session management, OAuth providers, JWT handling, and UI components out of the box.
 
