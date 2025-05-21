@@ -147,7 +147,7 @@ export async function loginHandler(
 
 // Logout handler
 export async function logoutHandler(
-  req: NextRequest,
+  // req: NextRequest,
   config: AuthConfig
 ) {
   try {
@@ -206,7 +206,7 @@ export async function sessionHandler(
 
 // OAuth authorization handler
 export async function oauthAuthorizeHandler(
-  req: NextRequest,
+  // req: NextRequest,
   config: AuthConfig,
   provider: OAuthProvider
 ) {

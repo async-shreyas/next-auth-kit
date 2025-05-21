@@ -1,7 +1,7 @@
 // src/hooks/use-auth.tsx
 'use client';
 
-import React, { 
+import { 
   createContext, 
   useContext, 
   useEffect, 
