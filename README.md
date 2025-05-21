@@ -20,7 +20,7 @@ A comprehensive authentication solution for Next.js applications that provides s
 
 ```bash
 # npm
-npm install next-auth-kit
+npm install next-auth-pro-kit
 ```
 
 ## Quick Start
