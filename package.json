@@ -1,0 +1,46 @@
+{
+  "name": "next-auth-pro-kit",
+  "version": "1.0.0",
+  "description": "comprehensive next auth kit",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/async-shreyas/next-auth-kit.git)"
+  },
+  "keywords": [
+    "nextjs",
+    "authentication",
+    "oauth"
+  ],
+  "author": "Shreyas N <shreyasnandanwar0400@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "3.0.2",
+    "jose": "6.0.11",
+    "nanoid": "5.1.5",
+    "zod": "3.25.17"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.6",
+    "@types/node": "22.15.21",
+    "@types/react": "19.1.5",
+    "autoprefixer": "10.4.21",
+    "next": "15.3.2",
+    "postcss": "8.5.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "tailwindcss": "4.1.7",
+    "typescript": "5.8.3"
+  },
+  "peerDependencies": {
+    "next": "^13.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.0.0"
+  }
+}
