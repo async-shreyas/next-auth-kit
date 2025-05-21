@@ -21,12 +21,6 @@ A comprehensive authentication solution for Next.js applications that provides s
 ```bash
 # npm
 npm install next-auth-kit
-
-# yarn
-yarn add next-auth-kit
-
-# pnpm
-pnpm add next-auth-kit
 ```
 
 ## Quick Start
@@ -590,4 +584,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [async-shreyas](https://github.com/async-shreyas)
